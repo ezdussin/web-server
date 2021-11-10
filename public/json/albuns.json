@@ -1,0 +1,32 @@
+{
+    "albuns":{
+        "56":{
+            "author": "dussin",
+            "releaseYear": 2021,
+            "songs":[
+                "will we lose the peace?",
+                "psycho",
+                "it's always true",
+                "after cinema"  
+            ]
+        },
+        "butterfly":{
+            "author": "felipzxv",
+            "releaseYear": 2021,
+            "songs":[
+                "mind",
+                "how to dance",
+                "necklace",
+                "opera",
+                "poison strawberry",
+                "moonlight",
+                "valentine",
+                "timeline",
+                "love you",
+                "april",
+                "inspired by",
+                "sagitario"
+            ]
+        }
+    }
+}
