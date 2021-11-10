@@ -9,7 +9,7 @@ form.addEventListener('submit', (e) => {
     author.textContent = 'Loading...'
     releaseYear.textContent = ''
 
-    fetch('http://localhost:3000/api/albuns').then((res) => {
+    fetch('/api/albuns').then((res) => {
         res.json().then((data) => {
             if(!data.albuns[search.value]){
                 author.textContent = 'Album not found'
