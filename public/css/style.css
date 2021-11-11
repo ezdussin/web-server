@@ -33,13 +33,13 @@
   padding: 20px;
 }
 
-a {
+.tabs {
   font-size: 20px;
   color: white;
   text-decoration: none;
 }
 
-a:hover {
+.tabs:hover {
   text-decoration: underline;
   text-underline-offset: 2px;
 }

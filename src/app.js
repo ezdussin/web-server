@@ -16,7 +16,11 @@ app.use(express.static(publicDirectoryPath))
 hbs.registerPartials(partialsPath)
 
 app.get('', (req, res) => {
-    res.render('index')
+    res.render('index', {title: 'SEARCH ALBUM.'})
+})
+
+app.get('/docs', (req, res) => {
+    res.render('docs', {title: 'DOCS.'})
 })
 
 app.get('/api/albuns', (req, res) => {
